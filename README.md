@@ -3,7 +3,7 @@ Projet 7 de la formation développeur Web d'OpenClassrooms.
 Création d'un réseau social interne 
 
 
-:pushpin: ## Utilisations : 
+:pushpin: ## Utilisation : 
 Voici la liste des créations utilisées pour ce projet :
 ### Frontend
 
@@ -27,11 +27,11 @@ Vous devez avoir MySQL installé sur votre ordinateur ( si ce n'est pas le cas v
 
 Une fois cela fait ouvrez le terminal de commande :
 
-:point_right: Connectez vous à MySql 
+:point_right: Connectez-vous à MySql 
 ```
 mysql -u root -p
 ```
-:point_right: Connectez vous avec votre mot de passe: 
+:point_right: Connectez-vous avec votre mot de passe: 
 ```
 Enter password: VotreMotDePasse
 ```
@@ -64,8 +64,8 @@ npm run serve
 ```
 Rendez-vous sur votre navigateur à l'adresse : http://localhost:8080
 
-:computer: ### Création d'utilisateurs
-Créez autant d'utilisateurs que vous le souhaitez en naviguant sur le réseaux social Groupomania
+:computer: ### Création d'utilisateur
+Créez autant d'utilisateur que vous le souhaitez en naviguant sur le réseau social Groupomania
 
 :raising_hand: ### Pour définir un utilisateur en tant qu'administrateur
 
