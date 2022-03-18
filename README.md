@@ -27,7 +27,7 @@ Vous devez avoir MySQL installé sur votre ordinateur ( si ce n'est pas le cas v
 
 Une fois cela fait ouvrer le terminal de commandes :
 
-Connecter vous à MySql 
+:point_right: Connecter vous à MySql 
 ```
 mysql -u root -p
 ```
