@@ -77,5 +77,5 @@ USE NomDeVotreBase;
 ```
 UPDATE user set isAdmin = 1  WHERE email =' l'adresse email voulu en tant que ADMIN';
 ```
-
+:warning: ### N'oubliez pas de remplire un fichier.env dans le dossier **Back** avec vos donners de MySql et de remplire le .env du dossier **Front**.
 
