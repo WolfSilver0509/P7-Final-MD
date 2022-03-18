@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <h1 class="card__title"> Mon Espace</h1>
+    <h1 class="card__title"> Mon Espace - Groupomania</h1>
     <p class="card__subtitle"> Ma page de profil se constitue de : </p>
     <p>  <b class="term">Prenom :</b>  {{firstName}} </p>
     <p><b class="term">Nom :</b> {{lastName}}</p>
@@ -101,4 +101,17 @@ p{
     color: black;
     background: #b4b4b4;
   }
+
+  @media only screen and (min-width: 280px) and (max-width:800px) { 
+ 
+
+
+ .button3 {
+  font-weight: 600;
+  font-size: 10px;
+  width: 40%;
+  padding: 16px;
+  margin-top: 30px;
+}
+}
 </style>>
