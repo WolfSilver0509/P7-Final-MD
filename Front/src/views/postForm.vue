@@ -7,11 +7,13 @@
   <div v-else class="form-row-column">
     <div class="form-row__input">
       <label for="title"> Titre </label>
-      <input id="title" class="form-control" v-model="postViewUp" type="title" />
+      <input id="title"  v-model="postViewUp" type="title"  />
     </div>
     <div class="form-row__input">
-      <label for="message"> Description </label
-      ><textarea id="message" class="form-control" v-model="postViewUp2" rows="4"></textarea>
+      <label for="description"> Description </label>
+      <input id="description"  v-model="postViewUp2" type="description"  />
+      <label for="description"> Description </label
+      >
       <div>
       <input type="file" @change="updateImagePost2" />
       <img v-bind:src="oldImage" alt="Ancienne image Post">

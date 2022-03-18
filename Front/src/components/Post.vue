@@ -176,4 +176,25 @@ export default {
   display: flex;
   justify-content: space-around;
 }
+@media only screen and (min-width: 280px) and (max-width:800px) { 
+ 
+
+
+ .buttonModif {
+  font-weight: 600;
+  font-size: 10px;
+  width: 40%;
+  padding: 16px;
+  margin-top: 30px;
+}
+
+.buttonSupp {
+  font-weight: 600;
+  font-size: 10px;
+  width: 60%;
+  padding: 16px;
+  margin-top: 30px;
+}
+
+}
 </style>

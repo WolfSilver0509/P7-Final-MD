@@ -4,7 +4,7 @@
     <p class="card__subtitle">Bienvenue sur le Forum de Groupomania !!!</p>
     <h2 class="card__title2">Crée votre publication:</h2>
     <div class="cardCreate">
-      <div class="form-vert">
+      <div class="form">
         <div class="form-row-column">
           <input
             class="form-row__input"
@@ -150,10 +150,6 @@ export default {
   border-radius: 16px;
   padding: 32px;
 }
-.form-vert {
-  display: flex;
-  justify-content: space-between;
-}
 
 .form-row__input_Des::placeholder {
   color: #aaaaaa;
@@ -185,4 +181,6 @@ export default {
   background: #8a0696;
   color: rgb(255, 255, 255);
 }
+
+
 </style>

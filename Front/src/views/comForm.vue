@@ -6,8 +6,8 @@
   <div v-if="loading"> En Chargement . . .</div>
   <div v-else class="form-row-column">
     <div class="form-row__input">
-      <label for="message"> Description </label
-      ><textarea id="message" class="form-control" v-model="comView" rows="4"></textarea>
+      <label for="description"> Description </label
+      ><input id="description"  v-model="comView" type="description"  />
       <div>
       <input type="file" @change="updateImageCom2" />
       <img v-bind:src="oldImageCom" alt="Ancienne image de commentaire">
