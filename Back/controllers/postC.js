@@ -118,16 +118,16 @@ exports.deletePost = async (req, res) => {
     if(post.image){
 
     const filename = post.image.split("/images/")[1];
-    fs.unlink(`images/${filename}`, () => {
+    fs.unlink(`images/${filename}`, async() => {
       try {
-        post.destroy();
+         await post.destroy();
       } catch (error) {
         res.status(400).json({ message: "Erreur suppression Post" });
       }
       res.status(203).json({ message: "Post supprimé" });
     });
   } else {
-    post.destroy();
+    await post.destroy();
     res.status(203).json({ message: "Post supprimé" });
   }
   }
