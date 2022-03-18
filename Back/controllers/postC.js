@@ -38,7 +38,7 @@ exports.getAllPost = async (req, res, next) => {
   const PostsResult = await Post.findAll({
     include: [
       { model: User, attributes: ["id", "firstName"] },
-      { model: Comment, include: User ,},
+      { model: Comment, include: User , order: [['updatedAt','DESC']]},
     ],
 
     order: [
