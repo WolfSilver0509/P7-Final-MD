@@ -25,13 +25,13 @@ Vous trouverez [la documentation de l'API](https://documenter.getpostman.com/vie
 :computer: ### Base de données
 Vous devez avoir MySQL installé sur votre ordinateur ( si ce n'est pas le cas vous pouvez le télécharger [ici - MySql](https://www.mysql.com/fr/). 
 
-Une fois cela fait ouvrer le terminal de commandes :
+Une fois cela fait ouvrez le terminal de commande :
 
-:point_right: Connecter vous à MySql 
+:point_right: Connectez vous à MySql 
 ```
 mysql -u root -p
 ```
-:point_right: Connecter vous avec votre mots de passe: 
+:point_right: Connectez vous avec votre mot de passe: 
 ```
 Enter password: VotreMotDePasse
 ```
@@ -40,7 +40,7 @@ Enter password: VotreMotDePasse
 CREATE DATABASE NomDeVotreBase;
 ```
 :computer: ### Application
-Vous devez avoir Node.js installé sur votre ordinateur. si ce n'est pas le cas installer le [ici](https://nodejs.org/en/)<br/>
+Vous devez avoir Node.js installé sur votre ordinateur. si ce n'est pas le cas installez le [ici](https://nodejs.org/en/)<br/>
 
 :point_right: Clonez ce dépôt GitHub. Rendez-vous dans le dossier **Back** et installez les modules nécessaires : 
 ```
@@ -65,7 +65,7 @@ npm run serve
 Rendez-vous sur votre navigateur à l'adresse : http://localhost:8080
 
 :computer: ### Création d'utilisateurs
-Crée autant d'utilisateurs que vous le souhaitez en naviguant sur le réseaux social Groupomania
+Créez autant d'utilisateurs que vous le souhaitez en naviguant sur le réseaux social Groupomania
 
 :raising_hand: ### Pour définir un utilisateur en tant qu'administrateur
 
@@ -77,5 +77,5 @@ USE NomDeVotreBase;
 ```
 UPDATE user set isAdmin = 1  WHERE email =' l'adresse email voulu en tant que ADMIN';
 ```
-:warning: ### N'oubliez pas de remplire un fichier.env dans le dossier **Back** avec vos donners de MySql et de remplire le .env du dossier **Front**.
+:warning: ### N'oubliez pas de remplir un fichier .env dans le dossier **Back** avec vos données de MySql et de remplir le .env du dossier **Front**.
 
