@@ -1,0 +1,48 @@
+{
+  "name": "front2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "lint": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.3",
+    "@vue/cli-plugin-eslint": "^5.0.3",
+    "@vue/cli-plugin-router": "^5.0.3",
+    "@vue/cli-plugin-vuex": "~4.5.15",
+    "@vue/cli-service": "^5.0.3",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@babel/eslint-parser": "^7.5.4",
+    "eslint": "^8.11.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
