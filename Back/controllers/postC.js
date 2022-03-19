@@ -38,11 +38,11 @@ exports.getAllPost = async (req, res, next) => {
   const PostsResult = await Post.findAll({
     include: [
       { model: User, attributes: ["id", "firstName"] },
-      { model: Comment, include: User , order: [['updatedAt','DESC']]},
+      { model: Comment, include: User },
     ],
 
     order: [
-      ['updatedAt', 'DESC'],
+      ['updatedAt', 'DESC'],[Comment, 'updatedAt', 'DESC']
   ],
   }); //Recups de tous les postes
 
@@ -54,7 +54,7 @@ exports.getPost = async (req, res, next) => {
     where: { id: req.params.id },
     include: [
       { model: User, attributes: ["id", "firstName"] },
-      { model: Comment, include: User },
+      { model: Comment, include: User},
     ],
   }); //Recups d'un post avec son id
 

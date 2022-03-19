@@ -4,7 +4,7 @@
     <p>{{ content }}</p>
     <img :src="image" />
     <p>
-      <i>Publication crée par {{ User.firstName }} </i>
+      <i>Publication créé par {{ User.firstName }} </i>
     </p>
     <i class="fa-solid fa-comment" @click="comData = !comData"></i>
     <div class="cardCreate2" v-if="comData">
@@ -14,7 +14,7 @@
             class="form-row__input_Des"
             v-model="comView"
             type="text"
-            placeholder="Ecriver votre commentaire"
+            placeholder="Ecrivez votre commentaire"
           />
           <input type="file" @change="updateImageCom" />
         </div>

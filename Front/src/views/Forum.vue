@@ -2,7 +2,7 @@
   <div class="cardForum">
     <h1 class="card__title">Forum</h1>
     <p class="card__subtitle">Bienvenue sur le Forum de Groupomania !!!</p>
-    <h2 class="card__title2">Crée votre publication:</h2>
+    <h2 class="card__title2">Créer votre publication:</h2>
     <div class="cardCreate">
       <div class="form">
         <div class="form-row-column">
@@ -20,7 +20,7 @@
           />
           <input type="file" @change="updateImagePost" />
         </div>
-        <button @click="createPost()" class="button">Crée un Post</button>
+        <button @click="createPost()" class="button">Créer un Post</button>
       </div>
     </div>
     <h2 class="card__title2">Nos publications :</h2>
