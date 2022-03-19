@@ -29,7 +29,7 @@ Une fois cela fait ouvrez le terminal de commande :
 
 :point_right: Connectez-vous à MySql 
 ```
-mysql -u root -p
+mysql -u votreNomDADMINmysql -p
 ```
 :point_right: Connectez-vous avec votre mot de passe: 
 ```
